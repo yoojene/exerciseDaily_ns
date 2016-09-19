@@ -1,0 +1,21 @@
+<Page loaded="pageLoaded">
+	<Page.actionBar>
+		<ActionBar title="Exercise Daily"></ActionBar>
+</Page.actionBar>
+	<StackLayout>
+
+		<Label text="Landing page"/>
+		<Label text="Some text here and maybe an image to show what to do"/>
+
+
+	<GridLayout columns="180, 180, auto" rows="180, 180" horizontalAlignment="center" verticalAlignment="center">
+		<!-- <Image src="~/images/32738A6E00000578-3504412-image-a-6_1458654517341.jpg" row="0" col="0" stretch="none" horizontalAlignment="center" backgroundImage /> -->
+		<Label text="Your Exercises" row="0" col="0" backgroundColor="red" tap=" {{ tappedRed }}" />
+		<Label text="More stuff" row="0" col="1" backgroundColor="green" tap=" {{ tappedGreen }}"/>
+		<Label text="Label 3" row="1" col="0" backgroundColor="blue" tap=" {{ tappedBlue }}"/>
+		<Label text="Label 4" row="1" col="1" backgroundColor="yellow" tap=" {{ tappedYellow }}"/>
+	</GridLayout>
+
+</StackLayout>
+
+</Page>

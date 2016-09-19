@@ -1,0 +1,13 @@
+<Page loaded="onPageLoaded">
+	<Page.actionBar>
+		<ActionBar title="Exercise Daily"></ActionBar>
+</Page.actionBar>
+<StackLayout orientation="vertical">
+    <!-- <Label text="This is Label 1" /> -->
+    <Label text="{{ loginmessage }}" horizontalAlignment="center"/>
+		<!-- <Image src="res://logo" stretch="none" horizontalAlignment="center" /> -->
+		<TextField id="email" text="{{ email }}" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+		<TextField secure="true" text="{{ password }}" hint="Password" />
+		<Button text="Sign In" tap="{{ signIn }}" />
+  </StackLayout>
+</Page>
