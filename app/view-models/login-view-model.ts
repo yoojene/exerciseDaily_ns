@@ -51,7 +51,7 @@ export class LoginViewModel extends observable.Observable {
 	private updateEmail() {
 
 		this.email = 'eugene.cross@gmail.com'
-		this.password = 'sl1210'
+		this.password = ''
 
 	};
 
